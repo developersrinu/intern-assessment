@@ -4,7 +4,7 @@ This repository contains a simple web application for viewing repositories based
 
 hosted link:  https://intern-assessment-chi.vercel.app/
 
-video link :  https://www.youtube.com/watch?v=gf09hj8cq3o
+video link :  https://cozy-halva-95f278.netlify.app/
 
 
 # Features
