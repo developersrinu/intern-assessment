@@ -2,9 +2,11 @@
 
 This repository contains a simple web application for viewing repositories based on the provided design. The application is built using HTML, CSS, and JavaScript. It incorporates server-side pagination, loading indicators during API calls, and an optional search bar for repository filtering.
 
-hosted link:  https://cozy-halva-95f278.netlify.app/
+hosted link :  https://cozy-halva-95f278.netlify.app/
 
-video link :  https://youtu.be/gf09hj8cq3o?feature=shared
+video link  :  https://youtu.be/gf09hj8cq3o?feature=shared
+
+resume link :  https://drive.google.com/file/d/1icGVYF5KcEc3WV0jfhaj3uShqLP4A7R3/view?usp=sharing
 
 
 # Features
