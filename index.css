@@ -1,0 +1,160 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#main {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    width: 98vw;
+
+
+}
+
+#userHeader {
+    display: flex;
+
+    width: 70vw;
+}
+
+.search {
+    width: 30vw;
+}
+
+#userDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+}
+
+.logo>img {
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+.info {
+
+    width: 40%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info>div {
+    margin: 2px 2px;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.bio {
+    color: grey;
+}
+
+.location {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.media {
+    font-size: 1.1rem;
+    font-weight: 300;
+
+}
+
+/* repos */
+
+.repo-h {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#repos {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: 10px;
+    width: 98%;
+}
+
+.repo {
+    width: 49%;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.repo-name {
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+.repo-desc {
+    font-size: 1.0rem;
+    margin: 5px;
+}
+
+.repo-tools {
+    font-size: 1.0rem;
+    margin: 5px 7px;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.search-btn{
+    border-radius: 5rem !important; 
+}
+#input {
+    width: 300px;
+    height: 34px;
+    border: 2px solid black;
+    border-radius: 5rem;
+    margin: 5px;
+  
+}
+
+
+.search {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+#container-box{
+    color: black !important;
+}
+
+@media only screen and (max-width: 600px) {
+    #main {
+        flex-wrap: nowrap;
+    }
+  }
