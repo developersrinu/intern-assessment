@@ -2,9 +2,9 @@
 
 This repository contains a simple web application for viewing repositories based on the provided design. The application is built using HTML, CSS, and JavaScript. It incorporates server-side pagination, loading indicators during API calls, and an optional search bar for repository filtering.
 
-hosted link:  https://intern-assessment-chi.vercel.app/
+hosted link:  https://cozy-halva-95f278.netlify.app/
 
-video link :  https://cozy-halva-95f278.netlify.app/
+video link :  https://youtu.be/gf09hj8cq3o?feature=shared
 
 
 # Features
