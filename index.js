@@ -42,9 +42,10 @@ function fetchData(username) {
                 <div class="logo">
                     <img src="${data.avatar_url}" alt="">
                 </div>
-                <div class="" style="margin:7px"}> user id :${data.login}</div>
-                <a class="" style="margin: 7px; cursor: pointer;" href="${data.html_url}">${data.html_url}</a>
+                <div class="logoid" style="margin:7px"}> user id :${data.login}</div>
+                <a class="logolink" style="margin: 7px; cursor: pointer;" href="${data.html_url}">${data.html_url}</a>
             </div>
+
             <div class="info">
                 <div class="name">${data.name}</div>
                 <div class="bio">${data.bio}</div>
@@ -54,6 +55,7 @@ function fetchData(username) {
                         ? data.twitter_username
                         : 'This user does not have a Twitter account.'
                 }</div>
+                
                 <div class="bio" style="color: black;">total repositories: ${data.public_repos}</div>
             </div>
         </div>`;
